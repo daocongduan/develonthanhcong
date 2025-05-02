@@ -20,7 +20,7 @@ const main_menu = [
                 "route": "products.html?bread=1.2",
             },
             {
-                "name": "Máy nâng Doosan", 
+                "name": "Xe nâng Develon", 
                 "route": "products.html?bread=1.3",
             },
             {
