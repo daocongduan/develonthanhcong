@@ -105,6 +105,21 @@ Vue.component('customfooter', {
                           </div>
                           <div class="ft__details">
                               <p> <i class="zmdi zmdi-pin"></i> {{ilang('detailAddress', local)}} <br> {{ilang('address', local)}} </p>
+                              <p> <i class="zmdi zmdi-pin"></i> {{ilang('detailAddress1', local)}} <br> {{ilang('address1', local)}} </p>
+                              <p> <i class="zmdi zmdi-pin"></i> {{ilang('detailAddress2', local)}} <br> {{ilang('address2', local)}} </p>
+                              <p> <i class="zmdi zmdi-pin"></i> {{ilang('detailAddress3', local)}} <br> {{ilang('address3', local)}} </p>
+                              <p> <i class="zmdi zmdi-pin"></i> {{ilang('detailAddress4', local)}} <br> {{ilang('address4', local)}} </p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- End Single Footer -->
+                  <!-- Start Single Footer -->
+                  <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                      <div class="footer">
+                          <div class="footer__widget">
+                              <h2 class="ft__title">{{ilang('block.contactinfor', local)}}</h2>
+                          </div>
+                          <div class="ft__details">
                               <p> <i class="fa fa-envelope"></i> <a v-bind:href="'mailto:' + ilang('email', local)">{{ilang('email', local)}}</a></p>
                               <p> <i class="fa fa-globe" aria-hidden="true"></i> <a v-bind:href="ilang('website', local)">{{ilang('website', local)}}</a></p>
                               <p> <i class="fa fa-phone" aria-hidden="true"></i> <a v-bind:href="'tel:' + ilang('phone', local)">{{ilang('phone', local)}} - {{ilang('hotline', local)}}</a></p>
