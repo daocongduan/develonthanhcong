@@ -122,7 +122,7 @@ Vue.component('customfooter', {
                           <div class="ft__details">
                               <p> <i class="fa fa-envelope"></i> <a v-bind:href="'mailto:' + ilang('email', local)">{{ilang('email', local)}}</a></p>
                               <p> <i class="fa fa-globe" aria-hidden="true"></i> <a v-bind:href="ilang('website', local)">{{ilang('website', local)}}</a></p>
-                              <p> <i class="fa fa-phone" aria-hidden="true"></i> <a v-bind:href="'tel:' + ilang('phone', local)">{{ilang('phone', local)}} - {{ilang('hotline', local)}}</a></p>
+                              <p> <i class="fa fa-phone" aria-hidden="true"></i> <a v-bind:href="'tel:' + ilang('phone', local)">Mr.Duẩn - {{ilang('phone', local)}} - {{ilang('hotline', local)}}</a></p>
                           </div>
                       </div>
                   </div>
